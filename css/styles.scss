@@ -6,5 +6,35 @@
 
 //Birk
 main{
-    
+    background: url(../img/main_background.png);
+    background-size: cover;
+    background-position: center; 
+    div.articles{
+        div:first-child{
+            padding-right: 30px;
+        }
+        div:last-child{
+            padding-left: 30px;
+        }
+    }
 }
+
+ol.carousel-indicators{
+    margin-bottom: 5%;
+
+    li{
+        height: 10px;
+        width: 10px;
+        border-radius: 100%;
+        background: none;
+        border: 2px solid #fff;
+    }
+
+    .active{
+        background: #fff;
+    }
+}
+
+
+
+
