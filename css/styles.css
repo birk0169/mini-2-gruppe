@@ -1,1 +1,85 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+header {
+  background-image: url("../img/navigation_background.png");
+  height: 150px;
+}
+
+header .header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 90%;
+  margin: auto;
+}
+
+header .header-wrapper img {
+  height: 60%;
+}
+
+header .header-wrapper nav {
+  width: 65%;
+}
+
+header .header-wrapper nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .header-wrapper nav ul li {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+header .header-wrapper nav ul li a {
+  font-weight: bold;
+  color: #555;
+  position: relative;
+  padding: 3px 0;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+header .header-wrapper nav ul li a::after {
+  position: absolute;
+  content: "";
+  background: #179ab9;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .header-wrapper nav ul li a:hover::after {
+  width: 100%;
+}
+
+footer {
+  width: 60%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer p {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=styles.css.map */
