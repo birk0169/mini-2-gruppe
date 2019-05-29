@@ -1,3 +1,7 @@
+body {
+  background: #ebebeb;
+}
+
 header {
   background-image: url("../img/navigation_background.png");
   height: 150px;
@@ -81,5 +85,35 @@ footer {
 
 footer p {
   margin: 10px 0;
+}
+
+main {
+  background: url(../img/main_background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+main div.articles div:first-child {
+  padding-right: 30px;
+}
+
+main div.articles div:last-child {
+  padding-left: 30px;
+}
+
+ol.carousel-indicators {
+  margin-bottom: 5%;
+}
+
+ol.carousel-indicators li {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background: none;
+  border: 2px solid #fff;
+}
+
+ol.carousel-indicators .active {
+  background: #fff;
 }
 /*# sourceMappingURL=styles.css.map */

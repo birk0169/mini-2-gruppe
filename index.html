@@ -32,7 +32,65 @@
             </div>
         </header>
         <!-- MAIN -->
-        <main></main>
+        <main class="shadow">
+            <div class="container">
+                <!-- Slideshow | Slideshow/Carousel -->
+                <div id="carouselExampleIndicators" class="row carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner py-3">
+                        <div class="carousel-item active">
+                            <img src="img/slideshow1.png" alt="" class="d-block w-100" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slideshow2.png" alt="" class="d-block w-100" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slideshow4.png" alt="" class="d-block w-100" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slideshow3.png" alt="" class="d-block w-100" />
+                        </div>
+                    </div>
+                    <a
+                        href="#carouselExampleIndicators"
+                        class="carousel-control-prev"
+                        role="button"
+                        data-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a
+                        href="#carouselExampleIndicators"
+                        class="carousel-control-next"
+                        role="button"
+                        data-slide="next"
+                    >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <!-- Articles -->
+                <div class="row d-flex justify-content-between py-3 articles">
+                    <div class="col-sm-4 pl-0">
+                        <img src="img/find_butik.png" alt="" class="img-fluid w-100" />
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/facebook.png" alt="" class="img-fluid w-100" />
+                    </div>
+                    <div class="col-sm-4 pr-0">
+                        <img src="img/club_bs.png" alt="" class="img-fluid w-100" />
+                    </div>
+                </div>
+            </div>
+        </main>
         <!-- FOOTER -->
         <footer>
             <p>BS MENSWEAR | Storegade 2c | 7700 Thisted | Tlf: 961 800 99</p>
